@@ -1,0 +1,21 @@
+
+{
+    "region" : "us-east-1",
+    "profile" : "default",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "function-name" : "SinafApi",
+    "function-description" : "",
+    "package-type"         : "Zip",
+    "function-handler"     : "SinafApi",
+    "function-memory-size" : 512,
+    "function-role"        : "arn:aws:iam::353068626989:role/service-role/SinafApi-role-hdiad9xr",
+    "function-timeout"     : 15,
+    "function-runtime"     : "dotnet6",
+    "function-architecture" : "x86_64",
+    "function-subnets"      : "",
+    "function-security-groups" : "",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "\"ASPNETCORE_ENVIRONMENT\"=\"development\"",
+    "image-tag"                : ""
+}
